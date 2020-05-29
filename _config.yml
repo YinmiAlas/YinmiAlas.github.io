@@ -17,8 +17,8 @@ navbar-links:
     - LinkedIn: "https://www.linkedin.com/in/yinmi-alas-9721b0162/"
     - Facebook: "https://www.facebook.com/profile.php?id=100009322351003"
     - Lambda School: "https://dashboards.lambdaschool.com/students/recQ9fQUDxL3GCF9x"
-    - Email: "jimmyalas73@gmail.com"
-    #[Email]: (mailto:your@email.com)
+    #Email: "jimmyalas73@gmail.com"
+    - [Email]: (mailto:jimmyalas73@gmail.com)
   #Author's home: "https://deanattali.com"
 
 # --- Logo --- #
