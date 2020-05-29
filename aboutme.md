@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Yinmi Alas
-subtitle: Calofirnia Data Scientist
+subtitle: ##Calofornia Data Scientist
 ---
 Lambda School Data Science Program 2020 (current)
 
@@ -10,7 +10,7 @@ My name is Yinmi Alas. I have the following qualities:
 - I love all about software computer
 - I love my family
 - I'm very patient
-- i love everithing about the future
+- I love everything about the future
 
 ### Interest
 - Learning about new technologies and how they make life easier for people
