@@ -1,16 +1,20 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Yinmi Alas
+subtitle: Calofirnia Data Scientist
 ---
+Lambda School Data Science Program 2020 (current)
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Yinmi Alas. I have the following qualities:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- I love all about software computer
+- I love my family
+- I'm very patient
+- i love everithing about the future
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### Interest
+- Learning about new technologies and how they make life easier for people
+- Working on data and analysis with Python
+- Creating data statistics and visualizations
+- Watching sports, especially the San Francisco 49ers.
+- Pizza!, Burritos, Chinise Food, BBQ Ribs!!
