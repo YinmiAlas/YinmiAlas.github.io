@@ -12,9 +12,13 @@ author: Yinmi Alas
 # --- List of links in the navigation bar --- 
 navbar-links:
   About Me: "aboutme"
-  Resources:
+  CONNECT:
+    - Github: "https://github.com/YinmiAlas"
+    - LinkedIn: "https://www.linkedin.com/in/yinmi-alas-9721b0162/"
+    - Facebook: "https://www.facebook.com/profile.php?id=100009322351003"
     - Lambda School: "https://dashboards.lambdaschool.com/students/recQ9fQUDxL3GCF9x"
-    - Learn Kit: "https://learn.lambdaschool.com/course/ds"
+    - Email: "jimmyalas73@gmail.com"
+    #[Email]: (mailto:your@email.com)
   #Author's home: "https://deanattali.com"
 
 # --- Logo --- #
