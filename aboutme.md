@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Yinmi Alas
-subtitle: Calofornia Data Scientist
+subtitle: California Data Scientist
 ---
 Lambda School Data Science Program 2020 (current)
 
