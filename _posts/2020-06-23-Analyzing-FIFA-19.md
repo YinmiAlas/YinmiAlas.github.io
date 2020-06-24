@@ -52,6 +52,7 @@ A manager can sign a player by paying his release clause, which will be higher t
 
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~YinmiAlas/3.embed"></iframe>
 
+
 ## How are release clauses set?
 
 Initially, a player’s release clause is established automatically according to the following rules:
@@ -64,18 +65,20 @@ The release clause can never be less than the market value. As such, it will be 
 # Average Age of the first 100 Players.
 According to the data set of the first 100 FIFA players the average age is 27.
 
-![meanage](https://plotly.com/~YinmiAlas/6/)
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~YinmiAlas/6.embed"></iframe>
 
 
 
 # The Preferred Foot and Weak Foot of the first 100 players.
 we can clearly see that the majority of the players in the game are gifted for their profession, as well as the famous echoes and the best in their environment.
 
-![prefferedfoot](https://plotly.com/~YinmiAlas/8/)
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~YinmiAlas/8.embed"></iframe>
+
 
 Mean while down here we have the weak foot of the first 100 players who are rated from 1 to 5, each one has their own level of support with respect to their preferred foot, some players their weak foot does not help them at all and others their weak foot is handled perfectly.
 
-![weakfoot](https://plotly.com/~YinmiAlas/10/)
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~YinmiAlas/10.embed"></iframe>
+
 
 
 
@@ -83,7 +86,8 @@ Mean while down here we have the weak foot of the first 100 players who are rate
 
 From the entire dataset we get the 5 most common nationalities in FIFA 19. As you can see England is the most frequent nationality with 1,662 records, followed by Germany with 1,198 and Spain with 1,072.
 
-![mostcommon](https://plotly.com/~YinmiAlas/12/)
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~YinmiAlas/12.embed"></iframe>
+
 
 
 
@@ -91,7 +95,8 @@ From the entire dataset we get the 5 most common nationalities in FIFA 19. As yo
 
 We will generate a heat map from the numerical columns which will show us how strongly correlated each variable is with the other. We filtered the dataframe so that it only includes numerical values and generate a heat map from the resulting dataframe:
 
-![correlated](https://plotly.com/~YinmiAlas/14/)
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~YinmiAlas/14.embed"></iframe>
+
 
 
 
@@ -99,7 +104,9 @@ We will generate a heat map from the numerical columns which will show us how st
 
 You can clearly see how some players have less potential than others and earn more and others that their potential is almost at their maximum and earn what they deserve. I made this graph to see if the players earn what they deserve for their high potential.
 
-![potentialwage](https://plotly.com/~YinmiAlas/16/)
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~YinmiAlas/16.embed"></iframe>
+
+
 
 
 There is much more to analyze but I will stop here. The code of this post will be available on [Github](LS_DS__build_week_project.ipynb). Thank you for reading!
