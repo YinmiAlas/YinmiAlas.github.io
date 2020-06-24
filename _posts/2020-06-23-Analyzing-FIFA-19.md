@@ -40,7 +40,7 @@ A well rounded player like Messi will show a high percentage of the polygon shad
 This graphs visually shows us how strong a player is across all his player attributes.
 
 
-![attribute2](assets/img/FullSizeRender_9.JPG)
+![attribute2](thirdpic.jpg)
 
 
 
