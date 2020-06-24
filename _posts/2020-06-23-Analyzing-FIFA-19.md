@@ -28,19 +28,19 @@ We will analyze FIFA 19 players. The dataset has 89 columns but we will use arou
 Each corner of the polygon is one of the players attributes. The further away from the center, the higher the attribute. **The shape is convex**. Convex means that the player is generally balanced over all the attributes.
 
 
-![attribute]({{site.baseurl}}assets/img/firstpic.jpg)
+![attribute](/assets/img/firstpic.jpg)
 
 
 A well rounded player like Messi will show a high percentage of the polygon shaded in while a weak player will show little shaded area near the middle.
 
 
-![attribute1](assets/img/FullSizeRender_8.JPG)
+![attribute1](/assets/img/FullSizeRender_8.JPG)
 
 
 This graphs visually shows us how strong a player is across all his player attributes.
 
 
-![attribute2](thirdpic.jpg)
+![attribute2](/thirdpic.jpg)
 
 
 
@@ -50,7 +50,7 @@ What does paying a release clause mean?
 
 A manager can sign a player by paying his release clause, which will be higher than the market value of the player, without having to depend on the owner of the player.
 
-![release](https://plotly.com/~YinmiAlas/3/)
+![release](/https://plotly.com/~YinmiAlas/3/)
 
 ## How are release clauses set?
 
