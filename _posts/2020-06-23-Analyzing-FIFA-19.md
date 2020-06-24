@@ -50,7 +50,7 @@ What does paying a release clause mean?
 
 A manager can sign a player by paying his release clause, which will be higher than the market value of the player, without having to depend on the owner of the player.
 
-![release](/_includes/plotly graph html files/Release.html)
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~YinmiAlas/3.embed"></iframe>
 
 ## How are release clauses set?
 
