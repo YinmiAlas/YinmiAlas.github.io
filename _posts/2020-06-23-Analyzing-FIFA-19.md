@@ -18,7 +18,7 @@ We will analyze FIFA 19 players. The dataset has 89 columns but we will use arou
 * Which features of the first 100 players are highly correlated.
 * The best 10 players Potential against Wage.
 
-Let’s get started!!
+### Let’s get started!!
 
 
 # The Best 10 Players with their abilities.
@@ -92,11 +92,13 @@ We will generate a heat map from the numerical columns which will show us how st
 ![correlated](https://plotly.com/~YinmiAlas/14/)
 
 
+
 # The best 10 players Potential against Wage
 
 You can clearly see how some players have less potential than others and earn more and others that their potential is almost at their maximum and earn what they deserve. I made this graph to see if the players earn what they deserve for their high potential.
 
 ![potentialwage](https://plotly.com/~YinmiAlas/16/)
+
 
 There is much more to analyze but I will stop here. The code of this post will be available on Github. Thank you for reading!
 
