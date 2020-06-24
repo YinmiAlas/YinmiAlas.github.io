@@ -28,7 +28,7 @@ We will analyze FIFA 19 players. The dataset has 89 columns but we will use arou
 Each corner of the polygon is one of the players attributes. The further away from the center, the higher the attribute. **The shape is convex**. Convex means that the player is generally balanced over all the attributes.
 
 
-![attribute](assets/img/firstpic.jpg)
+![attribute]({{site.baseurl}}assets/img/firstpic.jpg)
 
 
 A well rounded player like Messi will show a high percentage of the polygon shaded in while a weak player will show little shaded area near the middle.
