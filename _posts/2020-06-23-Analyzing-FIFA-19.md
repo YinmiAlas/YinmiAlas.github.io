@@ -20,19 +20,27 @@ We will analyze FIFA 19 players. The dataset has 89 columns but we will use arou
 
 Let’s get started!!
 
+
 # The Best 10 Players with their abilities.
 
 Each corner of the polygon is one of the players attributes. The further away from the center, the higher the attribute. **The shape is convex**. Convex means that the player is generally balanced over all the attributes.
 
-![attribute](assets/img/FullSizeRender-12.jpg)
+
+![attribute](assets/img/FullSizeRender_12.JPG)
+
 
 A well rounded player like Messi will show a high percentage of the polygon shaded in while a weak player will show little shaded area near the middle.
 
-![attribute1](assets/img/FullSizeRender-8.jpg)
+
+![attribute1](assets/img/FullSizeRender_8.JPG)
+
 
 This graphs visually shows us how strong a player is across all his player attributes.
 
-![attribute2](assets/img/FullSizeRender-9.jpg)
+
+![attribute2](assets/img/FullSizeRender_9.JPG)
+
+
 
 # The Best 10 Players Value against Release Clause.
 
@@ -51,7 +59,44 @@ The release clause can never be less than the market value. As such, it will be 
 
 
 
+# Average Age of the first 100 Players.
+According to the data set of the first 100 FIFA players the average age is 27.
+
+![meanage](https://plotly.com/~YinmiAlas/6/)
 
 
 
+# The Preferred Foot and Weak Foot of the first 100 players.
+we can clearly see that the majority of the players in the game are gifted for their profession, as well as the famous echoes and the best in their environment.
+
+![prefferedfoot](https://plotly.com/~YinmiAlas/8/)
+
+Mean while down here we have the weak foot of the first 100 players who are rated from 1 to 5, each one has their own level of support with respect to their preferred foot, some players their weak foot does not help them at all and others their weak foot is handled perfectly.
+
+![weakfoot](https://plotly.com/~YinmiAlas/10/)
+
+
+
+# Which Country has the most players in FIFA 19.
+
+From the entire dataset we get the 5 most common nationalities in FIFA 19. As you can see England is the most frequent nationality with 1,662 records, followed by Germany with 1,198 and Spain with 1,072.
+
+![mostcommon](https://plotly.com/~YinmiAlas/12/)
+
+
+
+# Which features of the first 100 players are highly correlated.
+
+We will generate a heat map from the numerical columns which will show us how strongly correlated each variable is with the other. We filtered the dataframe so that it only includes numerical values and generate a heat map from the resulting dataframe:
+
+![correlated](https://plotly.com/~YinmiAlas/14/)
+
+
+# The best 10 players Potential against Wage
+
+You can clearly see how some players have less potential than others and earn more and others that their potential is almost at their maximum and earn what they deserve. I made this graph to see if the players earn what they deserve for their high potential.
+
+![potentialwage](https://plotly.com/~YinmiAlas/16/)
+
+There is much more to analyze but I will stop here. The code of this post will be available on Github. Thank you for reading!
 
