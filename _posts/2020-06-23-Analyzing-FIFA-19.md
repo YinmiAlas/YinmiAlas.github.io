@@ -102,5 +102,5 @@ You can clearly see how some players have less potential than others and earn mo
 ![potentialwage](https://plotly.com/~YinmiAlas/16/)
 
 
-There is much more to analyze but I will stop here. The code of this post will be available on Github. Thank you for reading!
+There is much more to analyze but I will stop here. The code of this post will be available on [Github](LS_DS__build_week_project.ipynb). Thank you for reading!
 
