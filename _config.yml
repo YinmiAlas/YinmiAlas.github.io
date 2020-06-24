@@ -11,7 +11,7 @@ author: Yinmi Alas
 
 # --- List of links in the navigation bar --- 
 navbar-links:
-  Portfolio: "Portfolio"
+  #Portfolio: "Portfolio"
   About Me: "aboutme"
   CONNECT:
     - Github: "https://github.com/YinmiAlas"
