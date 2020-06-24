@@ -40,7 +40,7 @@ A well rounded player like Messi will show a high percentage of the polygon shad
 This graphs visually shows us how strong a player is across all his player attributes.
 
 
-![attribute2](/thirdpic.jpg)
+![attribute2](/assets/img/thirdpic.jpg)
 
 
 
@@ -50,7 +50,7 @@ What does paying a release clause mean?
 
 A manager can sign a player by paying his release clause, which will be higher than the market value of the player, without having to depend on the owner of the player.
 
-![release](/https://plotly.com/~YinmiAlas/3/)
+![release](/_includes/plotly graph html files/Release.html)
 
 ## How are release clauses set?
 
