@@ -2,7 +2,7 @@
 layout: post
 title: Analyzing FIFA 19 Dataset 
 subtitle: The Best 10 Players of FIFA 19
-cover-img: EASportsFifa19.jpg
+cover-img: assets/img/EASportsFifa19.jpg
 ---
 
 In this post we will perform a data analysis of the FIFA 19 data set. The data set can be found on [Kaggle](https://www.kaggle.com/karangadiya/fifa19). FIFA( Fédération Internationale de Football Association) and FIFA 19 is part of the FIFA series of association football video games is the one of the most popular game in the world, EA said that lifetime sales of the soccer franchise [has passed 260 million copies since its first launch in 1993](https://venturebeat.com/2018/09/05/ea-sports-fifa-franchise-surpasses-260-million-copies-sold/).
@@ -24,15 +24,15 @@ Let’s get started!!
 
 Each corner of the polygon is one of the players attributes. The further away from the center, the higher the attribute. **The shape is convex**. Convex means that the player is generally balanced over all the attributes.
 
-![attribute](FullSizeRender-12.jpeg)
+![attribute](assets/img/FullSizeRender-12.jpg)
 
 A well rounded player like Messi will show a high percentage of the polygon shaded in while a weak player will show little shaded area near the middle.
 
-![attribute1](FullSizeRender-8.jpeg)
+![attribute1](assets/img/FullSizeRender-8.jpg)
 
 This graphs visually shows us how strong a player is across all his player attributes.
 
-![attribute2](FullSizeRender-9.jpeg)
+![attribute2](assets/img/FullSizeRender-9.jpg)
 
 # The Best 10 Players Value against Release Clause.
 
