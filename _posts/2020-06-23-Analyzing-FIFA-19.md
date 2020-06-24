@@ -19,7 +19,9 @@ We will analyze FIFA 19 players. The dataset has 89 columns but we will use arou
 * The best 10 players Potential against Wage.
 
 
+
 #### Let’s get started!!
+
 
 
 
@@ -50,14 +52,20 @@ What does paying a release clause mean?
 
 A manager can sign a player by paying his release clause, which will be higher than the market value of the player, without having to depend on the owner of the player.
 
+
+
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~YinmiAlas/3.embed"></iframe>
+
+
 
 
 ## How are release clauses set?
 
 Initially, a player’s release clause is established automatically according to the following rules:
-* Players with a Market Value < 1M will have a release clause of 1M
+
+* Players with a Market Value < 1M will have a release clause of 1M.
 * Players with a Market Value > 1M will have a release clause of 166% of their market value.
+
 The release clause can never be less than the market value. As such, it will be updated in keeping with the market value. Any user who wants to protect their players can raise the release clause by paying from their budget to a ratio of 1:2. For example, if you want to raise the release clause by 2M, you will have to pay 1M from your budget.
 
 
@@ -65,19 +73,31 @@ The release clause can never be less than the market value. As such, it will be 
 # Average Age of the first 100 Players.
 According to the data set of the first 100 FIFA players the average age is 27.
 
+
+
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~YinmiAlas/6.embed"></iframe>
+
+
 
 
 
 # The Preferred Foot and Weak Foot of the first 100 players.
 we can clearly see that the majority of the players in the game are gifted for their profession, as well as the famous echoes and the best in their environment.
 
+
+
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~YinmiAlas/8.embed"></iframe>
+
+
 
 
 Mean while down here we have the weak foot of the first 100 players who are rated from 1 to 5, each one has their own level of support with respect to their preferred foot, some players their weak foot does not help them at all and others their weak foot is handled perfectly.
 
+
+
+
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~YinmiAlas/10.embed"></iframe>
+
 
 
 
@@ -86,7 +106,11 @@ Mean while down here we have the weak foot of the first 100 players who are rate
 
 From the entire dataset we get the 5 most common nationalities in FIFA 19. As you can see England is the most frequent nationality with 1,662 records, followed by Germany with 1,198 and Spain with 1,072.
 
+
+
+
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~YinmiAlas/12.embed"></iframe>
+
 
 
 
@@ -95,7 +119,10 @@ From the entire dataset we get the 5 most common nationalities in FIFA 19. As yo
 
 We will generate a heat map from the numerical columns which will show us how strongly correlated each variable is with the other. We filtered the dataframe so that it only includes numerical values and generate a heat map from the resulting dataframe:
 
+
+
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~YinmiAlas/14.embed"></iframe>
+
 
 
 
@@ -104,7 +131,12 @@ We will generate a heat map from the numerical columns which will show us how st
 
 You can clearly see how some players have less potential than others and earn more and others that their potential is almost at their maximum and earn what they deserve. I made this graph to see if the players earn what they deserve for their high potential.
 
+
+
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~YinmiAlas/16.embed"></iframe>
+
+
+
 
 
 
