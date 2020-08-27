@@ -30,108 +30,160 @@ The dataset has 17 columns and 520 rows we will use the following classification
 ![attribute1](/assets/unit2 pic/Screen Shot 2020-08-25 at 9.26.44 PM.png)
 
 
-This graphs visually shows us how strong a player is across all his player attributes.
+I need to split the data twice easy way to get Train/Validate/Test random split.
 
 
-![attribute2](/assets/img/thirdpic.jpg)
+![attribute2](/assets/unit2 pic/Screen Shot 2020-08-25 at 9.45.15 PM.png)
 
 
 
-# The Best 10 Players Value against Release Clause.
+# Begin with baselines.
 
-What does paying a release clause mean?
+![attribute22](/assets/unit2 pic/Screen Shot 2020-08-25 at 9.12.19 PM.png)
 
-A manager can sign a player by paying his release clause, which will be higher than the market value of the player, without having to depend on the owner of the player.
 
+“Class” is the feature we are going to predict, its has Positive and Negative values.
 
+![attribute23](/assets/unit2 pic/Screen Shot 2020-08-25 at 9.13.03 PM.png)
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~YinmiAlas/3.embed"></iframe>
+![attribute24](/assets/unit2 pic/Screen Shot 2020-08-25 at 9.13.35 PM.png)
 
+This is Baseline Accuracy score lets improve the score with a Classification Model.
 
+![attribute25](/assets/unit2 pic/Screen Shot 2020-08-25 at 9.13.55 PM.png)
 
+## Logistic Regression Model.
 
-## How are release clauses set?
+Logistic Regression is one of the most common classification algorithms.
 
-Initially, a player’s release clause is established automatically according to the following rules:
+![attribute26](/assets/unit2 pic/Screen Shot 2020-08-25 at 9.57.31 PM.png)
 
-* Players with a Market Value < 1M will have a release clause of 1M.
-* Players with a Market Value > 1M will have a release clause of 166% of their market value.
+lets keep trying improving the score with more models
+Validation Accuracy : 0.91%
+Test ROC AUC : 0.98%
 
-The release clause can never be less than the market value. As such, it will be updated in keeping with the market value. Any user who wants to protect their players can raise the release clause by paying from their budget to a ratio of 1:2. For example, if you want to raise the release clause by 2M, you will have to pay 1M from your budget.
+# Confusion Matrix Plot with Logistic Regression Model.
 
+![attribute27](/assets/unit2 pic/Screen Shot 2020-08-26 at 5.19.00 PM.png)
 
+This is what a confusion matrix looks like
 
-# Average Age of the first 100 Players.
-According to the data set of the first 100 FIFA players the average age is 27.
+![attribute28](/assets/unit2 pic/Screen Shot 2020-08-26 at 5.39.45 PM.png)
 
+Now, let us understand what TP, TN, FP, FN denote in this matrix:
 
+* **True Positives (TP):** These are cases in which we predicted yes (they have the disease), and they do have the disease.
+* **True Negatives (TN):** We predicted no, and they don’t have the disease.
+* **False Positives (FP):** We predicted yes, but they don’t actually have the disease. (Also known as a “Type I error.”)
+* **False Negatives (FN):** We predicted no, but they actually do have the disease. (Also known as a “Type II error.”)
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~YinmiAlas/6.embed"></iframe>
+# Classification Report with Logistic Regression Model.
 
+![attribute29](/assets/unit2 pic/Screen Shot 2020-08-26 at 5.45.16 PM.png)
 
 
+Lets see how a Classification Report Works.
 
+**Precision:** is defined as the number of true positives (TP) over the number of true positives plus the number of false positives (FP).
 
-# The Preferred Foot and Weak Foot of the first 100 players.
-we can clearly see that the majority of the players in the game are gifted for their profession, as well as the famous echoes and the best in their environment.
+![attribute30](/assets/unit2 pic/imagen1.png)
 
 
+**Recall:** is defined as the number of true positives (TP) over the number of true positives plus the number of false negatives (FN).
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~YinmiAlas/8.embed"></iframe>
+![attribute31](/assets/unit2 pic/imagen2.png)
 
+F1-score: is the harmonic mean of precision and recall.
 
+![attribute32](/assets/unit2 pic/imagen3.png)
 
+# Permutation importances.
 
-Mean while down here we have the weak foot of the first 100 players who are rated from 1 to 5, each one has their own level of support with respect to their preferred foot, some players their weak foot does not help them at all and others their weak foot is handled perfectly.
+![attribute33](/assets/unit2 pic/Screen Shot 2020-08-26 at 5.59.31 PM.png)
 
+![attribute34](/assets/unit2 pic/Screen Shot 2020-08-26 at 5.59.57 PM.png)
 
 
+**The permutation feature importance:** is defined to be the decrease in a model score when a single feature value is randomly shuffled 1. This procedure breaks the relationship between the feature and the target, thus the drop in the model score is indicative of how much the model depends on the feature.
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~YinmiAlas/10.embed"></iframe>
 
 
 
+# Decision Tree Model.
 
+![attribute35](/assets/unit2 pic/Screen Shot 2020-08-26 at 6.09.57 PM.png)
 
-# Which Country has the most players in FIFA 19.
 
-From the entire dataset we get the 5 most common nationalities in FIFA 19. As you can see England is the most frequent nationality with 1,662 records, followed by Germany with 1,198 and Spain with 1,072.
 
+**Classification Accuracy Score:** is our starting point. It is the number of correct predictions made divided by the total number of predictions made, multiplied by 100 to turn it into a percentage.
 
+In this model the Validation Accuracy Score increase: 0.06%
 
+But Test ROC AUC Score decrease : 0.012
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~YinmiAlas/12.embed"></iframe>
 
 
 
+# Confusion Matrix Plot with Decision Tree Model.
 
+![attribute36](/assets/unit2 pic/Screen Shot 2020-08-26 at 6.10.48 PM.png)
 
-# Which features of the first 100 players are highly correlated.
 
-We will generate a heat map from the numerical columns which will show us how strongly correlated each variable is with the other. We filtered the dataframe so that it only includes numerical values and generate a heat map from the resulting dataframe:
+# Classification report with Decision Tree Model.
 
+![attribute37](/assets/unit2 pic/Screen Shot 2020-08-26 at 6.11.08 PM.png)
 
+# Visualizing the Desicion Tree Model.
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~YinmiAlas/14.embed"></iframe>
+![attribute38](/assets/unit2 pic/Screen Shot 2020-08-26 at 6.35.55 PM.png)
 
+![attribute39](/assets/unit2 pic/Screen Shot 2020-08-26 at 6.35.33 PM.png)
 
+# Visualizing The Feature Importances with Decision Tree Model.
 
+![attribute40](/assets/unit2 pic/Screen Shot 2020-08-26 at 6.42.06 PM.png)
 
+![attribute41](/assets/unit2 pic/Screen Shot 2020-08-26 at 6.42.59 PM.png)
 
-# The best 10 players Potential against Wage
+# Random Forest Model
+![attribute41](/assets/unit2 pic/Screen Shot 2020-08-26 at 6.44.45 PM.png)
 
-You can clearly see how some players have less potential than others and earn more and others that their potential is almost at their maximum and earn what they deserve. I made this graph to see if the players earn what they deserve for their high potential.
+**The AUC** is the area under the ROC curve. This score gives us a good idea of how well the model performances.
+AUC ROC is one of the most important evaluation metrics for any classification model’s performance.
 
+In this case the Accuracy score drop : 0.0087%
+But the ROC AUC score is higher : 0.027%
 
+# Confusion Matrix Plot with Random Forest Classifier.
+![attribute42](/assets/unit2 pic/Screen Shot 2020-08-26 at 6.45.57 PM.png)
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~YinmiAlas/16.embed"></iframe>
+# Classification report with Random Forest Classifier.
+![attribute43](/assets/unit2 pic/Screen Shot 2020-08-26 at 6.46.10 PM.png)
 
+# Partial Dependence Plot, 1 feature isolation Using Random Forest Classifier
+![attribute44](/assets/unit2 pic/Screen Shot 2020-08-26 at 7.06.04 PM.png)
+![attribute45](/assets/unit2 pic/Screen Shot 2020-08-26 at 7.06.32 PM.png)
+![attribute46](/assets/unit2 pic/Screen Shot 2020-08-26 at 7.06.50 PM.png)
 
+**The partial dependence plot:** (short PDP plot) shows the marginal effect one or two features have on the predicted outcome of a machine learning model . A partial dependence plot can show whether the relationship between the target and a feature is linear, monotonic or more complex.
 
 
+# Partial Dependence Plot, 2 features interaction Using Random Forest Classifier.
+![attribute47](/assets/unit2 pic/SScreen Shot 2020-08-26 at 7.15.50 PM.png)
 
+It would look like one gender has a much higher chance of diabetes than the other
+![attribute48](/assets/unit2 pic/Screen Shot 2020-08-26 at 7.16.13 PM.png)
 
+# XGBoost Classifier Model
+## Shapley plot explaning multiples prediction using their index number or the row number using XgBoost
+![attribute49](/assets/unit2 pic/Screen Shot 2020-08-26 at 7.18.16 PM.png)
+![attribute50](/assets/unit2 pic/Screen Shot 2020-08-26 at 7.19.30 PM.png)
+![attribute51](/assets/unit2 pic/Screen Shot 2020-08-26 at 7.20.03 PM.png)
 
-There is much more to analyze but I will stop here. The code of this post will be available on [Github](LS_DS__build_week_project.ipynb). Thank you for reading!
+The records for this plot are 103 patients and it looks like the prediction is negative with 0.43% and the probability to have diabetes is 0.57% .
+
+![attribute52](/assets/unit2 pic/Screen Shot 2020-08-26 at 7.20.55 PM.png)
+
+There is much more to analyze but I will stop here. The code of this post will be available on [Github](https://github.com/YinmiAlas/early-stage-diabetes-prediction). Thank you for reading!
 
 
