@@ -2,7 +2,7 @@
 layout: post
 title: Early Stage Diabetes Risk Prediction 
 subtitle: Using Machine Learning
-cover-img: assets/img/EASportsFifa19.jpg
+cover-img: assets/unit2 pic/DIABETES_INFO_stats.png
 ---
 
 In this post we will predict and perform evaluation Metrics of the Early Stage Diabetes Risk Prediction dataset. The dataset can be found on [UCI Machine learning repository](https://archive.ics.uci.edu/ml/datasets/Early+stage+diabetes+risk+prediction+dataset.#). Diabetes is a chronic, metabolic disease characterized by elevated levels of blood glucose (or blood sugar), which leads over time to serious damage to the heart, blood vessels, eyes, kidneys and nerves.
@@ -23,18 +23,11 @@ The dataset has 17 columns and 520 rows we will use the following classification
 
 
 
-# The Best 10 Players with their abilities.
+# Processing the data.
 
-Each corner of the polygon is one of the players attributes. The further away from the center, the higher the attribute. **The shape is convex**. Convex means that the player is generally balanced over all the attributes.
+![attribute](/assets/unit2 pic/Screen Shot 2020-08-25 at 9.21.43 PM.png)
 
-
-![attribute](/assets/img/firstpic.jpg)
-
-
-A well rounded player like Messi will show a high percentage of the polygon shaded in while a weak player will show little shaded area near the middle.
-
-
-![attribute1](/assets/img/FullSizeRender_8.JPG)
+![attribute1](/assets/unit2 pic/Screen Shot 2020-08-25 at 9.26.44 PM.png)
 
 
 This graphs visually shows us how strong a player is across all his player attributes.
