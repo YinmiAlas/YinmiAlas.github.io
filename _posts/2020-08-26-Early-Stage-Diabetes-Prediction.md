@@ -27,6 +27,7 @@ The dataset has 17 columns and 520 rows we will use the following classification
 
 ![attribute](/assets/unit2 pic/Screen Shot 2020-08-25 at 9.21.43 PM.png)
 
+
 ![attribute1](/assets/unit2 pic/Screen Shot 2020-08-25 at 9.26.44 PM.png)
 
 
@@ -46,7 +47,9 @@ I need to split the data twice easy way to get Train/Validate/Test random split.
 
 ![attribute23](/assets/unit2 pic/Screen Shot 2020-08-25 at 9.13.03 PM.png)
 
+
 ![attribute24](/assets/unit2 pic/Screen Shot 2020-08-25 at 9.13.35 PM.png)
+
 
 This is Baseline Accuracy score lets improve the score with a Classification Model.
 
@@ -91,15 +94,16 @@ Lets see how a Classification Report Works.
 
 **Recall:** is defined as the number of true positives (TP) over the number of true positives plus the number of false negatives (FN).
 
-![attribute31](/assets/unit2 pic/imagen2.png)
+![attribute31](/assets/unit2 pic/image2.png)
 
-F1-score: is the harmonic mean of precision and recall.
+**F1-score:** is the harmonic mean of precision and recall.
 
 ![attribute32](/assets/unit2 pic/imagen3.png)
 
 # Permutation importances.
 
 ![attribute33](/assets/unit2 pic/Screen Shot 2020-08-26 at 5.59.31 PM.png)
+
 
 ![attribute34](/assets/unit2 pic/Screen Shot 2020-08-26 at 5.59.57 PM.png)
 
@@ -137,15 +141,18 @@ But Test ROC AUC Score decrease : 0.012
 
 ![attribute38](/assets/unit2 pic/Screen Shot 2020-08-26 at 6.35.55 PM.png)
 
+
 ![attribute39](/assets/unit2 pic/Screen Shot 2020-08-26 at 6.35.33 PM.png)
 
 # Visualizing The Feature Importances with Decision Tree Model.
 
 ![attribute40](/assets/unit2 pic/Screen Shot 2020-08-26 at 6.42.06 PM.png)
 
+
 ![attribute41](/assets/unit2 pic/Screen Shot 2020-08-26 at 6.42.59 PM.png)
 
 # Random Forest Model
+
 ![attribute41](/assets/unit2 pic/Screen Shot 2020-08-26 at 6.44.45 PM.png)
 
 **The AUC** is the area under the ROC curve. This score gives us a good idea of how well the model performances.
@@ -161,23 +168,32 @@ But the ROC AUC score is higher : 0.027%
 ![attribute43](/assets/unit2 pic/Screen Shot 2020-08-26 at 6.46.10 PM.png)
 
 # Partial Dependence Plot, 1 feature isolation Using Random Forest Classifier
+
 ![attribute44](/assets/unit2 pic/Screen Shot 2020-08-26 at 7.06.04 PM.png)
+
 ![attribute45](/assets/unit2 pic/Screen Shot 2020-08-26 at 7.06.32 PM.png)
+
 ![attribute46](/assets/unit2 pic/Screen Shot 2020-08-26 at 7.06.50 PM.png)
+
 
 **The partial dependence plot:** (short PDP plot) shows the marginal effect one or two features have on the predicted outcome of a machine learning model . A partial dependence plot can show whether the relationship between the target and a feature is linear, monotonic or more complex.
 
 
 # Partial Dependence Plot, 2 features interaction Using Random Forest Classifier.
+
 ![attribute47](/assets/unit2 pic/SScreen Shot 2020-08-26 at 7.15.50 PM.png)
 
 It would look like one gender has a much higher chance of diabetes than the other
+
 ![attribute48](/assets/unit2 pic/Screen Shot 2020-08-26 at 7.16.13 PM.png)
 
 # XGBoost Classifier Model
 ## Shapley plot explaning multiples prediction using their index number or the row number using XgBoost
+
 ![attribute49](/assets/unit2 pic/Screen Shot 2020-08-26 at 7.18.16 PM.png)
+
 ![attribute50](/assets/unit2 pic/Screen Shot 2020-08-26 at 7.19.30 PM.png)
+
 ![attribute51](/assets/unit2 pic/Screen Shot 2020-08-26 at 7.20.03 PM.png)
 
 The records for this plot are 103 patients and it looks like the prediction is negative with 0.43% and the probability to have diabetes is 0.57% .
